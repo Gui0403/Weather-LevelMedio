@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box_main">
+        <h1 class="titulo">Site de clima</h1> 
+        <h2 class="titulo">Pesquise sua região</h2>
+        <input placeholder="Digite o nome da cidade: " class="search">
+        <button class="button_search" onclick="search()">
+            <img src="../imgs/lupa.jfif" alt="search" class="img_search">
+        </button>
+
+        <div class="box_media">
+            <h1 class="region">Tempo em CG</h1>
+            <p class="time">35°C</p>
+        </div>
+        
+
+        <div class="box_menor">
+            <div class="prevision">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="icon_cloud" class="img_cloud">
+                <p class="text_prevision">Nublado</p>
+            </div>
+            <p class="humidity">Umidade: </p>
+        </div>
+        
+    </div>
+</body>
+</html>
